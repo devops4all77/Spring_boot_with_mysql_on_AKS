@@ -17,7 +17,7 @@ Run &amp; Deploy Spring Boot CRUD Orders application built with backend MYSQL an
 
 4. Create config map and secrets
 
-`alias k=kuebectl`  
+`alias k=kubectl`  
 `k create -f mysql-secrets.yaml`  
 `k create -f mysql-configMap.yaml`  
 
